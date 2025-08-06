@@ -6,14 +6,14 @@ html {
 }
 
 body {
-    zoom: 0.8; /* Scale everything down by 10% */
+    zoom: 0.9; /* Scale everything down by 10% */
 }
 
 /* Alternative method if zoom doesn't work */
 .container, 
 .hero-content,
 .nav-container {
-    transform: scale(0.8);
+    transform: scale(0.9);
     transform-origin: top center;
 }
 
