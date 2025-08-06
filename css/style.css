@@ -1,4 +1,16 @@
 /* Reset and Base Styles */
+/* Fix for deployment scaling - add this at the very top */
+html {
+    font-size: 14px; /* Reduced from default 16px */
+}
+
+body {
+    transform: scale(0.9);
+    transform-origin: top left;
+    width: 111.11%;
+    height: 111.11%;
+}
+
 * {
     margin: 0;
     padding: 0;
